@@ -1,0 +1,520 @@
+/*
+corregir imagen FotoYo resolucion y bottom en header
+corregir logo fypoolday, hacer invisible su fondo. en Footer
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.header {
+  width: 100%;
+  height: 594px;
+  margin: 0px 0px;
+  background-color: #ffd325;
+}
+
+.bar {
+  margin: 0px 20px 94px 17px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .bar {
+    margin: 0px 103px 76px 80px;
+  }
+}
+
+.bar-logo {
+  width: 54px;
+  height: 50px;
+}
+@media (min-width: 1440px) {
+  .bar-logo {
+    width: 95px;
+    height: 109px;
+  }
+}
+
+.option {
+  background-color: black;
+  width: 36px;
+  height: 6px;
+}
+@media (min-width: 1440px) {
+  .option {
+    background-color: white;
+    width: unset;
+    height: unset;
+  }
+}
+
+.bar-options {
+  display: flex;
+  flex-direction: column;
+  width: 36px;
+  height: 32px;
+  align-self: center;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .bar-options {
+    flex-direction: row;
+    width: 428px;
+    height: 28px;
+  }
+}
+
+.option-link {
+  background-color: #ffd325;
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 0;
+}
+@media (min-width: 1440px) {
+  .option-link {
+    font-size: 24px;
+  }
+}
+
+.Bienvenidos {
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .Bienvenidos {
+    flex-direction: row;
+    height: 395px;
+    margin: 0 84px 0 80px;
+  }
+}
+
+.Bienvenidos-text {
+  margin: 0 auto;
+  width: 291px;
+  height: 96px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+@media (min-width: 1440px) {
+  .Bienvenidos-text {
+    text-align: left;
+    width: 313px;
+    height: 96px;
+    margin: 0;
+  }
+}
+
+.Foto-Yo {
+  width: 318px;
+  height: 300px;
+  margin: 0 auto;
+}
+@media (min-width: 1440px) {
+  .Foto-Yo {
+    width: 435px;
+    height: 395px;
+    margin: 0;
+  }
+}
+/*====================  S E C T I O N - 1  ================================*/
+
+.section-1 {
+  width: 100%;
+  height: 538px;
+  background-color: black;
+}
+
+.content-s1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 415px;
+  margin: 0 auto;
+
+  align-items: center;
+}
+@media (min-width: 1440px) {
+  .content-s1 {
+    flex-direction: row-reverse;
+    height: 237px;
+  }
+}
+
+.presentation > h2 {
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+}
+@media (min-width: 1440px) {
+  .presentation > h2 {
+    text-align: left;
+  }
+}
+
+.presentation > p {
+  color: white;
+  font-size: 16px;
+  width: 312px;
+  height: 193px;
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  .presentation > p {
+    font-size: 24px;
+    width: 532px;
+    height: 165px;
+  }
+}
+
+.check-image {
+  height: 80px;
+  width: 80px;
+}
+@media (min-width: 1440px) {
+  .check-image {
+    margin-top: 145px;
+    margin-left: 306px;
+    height: 211px;
+    width: 211px;
+  }
+}
+
+.presentation {
+  margin-top: 55px;
+  height: 278px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .presentation {
+    height: 237px;
+    margin-top: 132px;
+    margin-left: 90px;
+    margin-right: 222px;
+  }
+}
+
+/*====================  S E C T I O N - 2  ================================*/
+
+.section-2 {
+  width: 100%;
+  height: 1375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+@media (min-width: 1440px) {
+  .section-2 {
+    height: 604px;
+  }
+}
+
+.My-services-title {
+  margin-top: 69px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+@media (min-width: 1440px) {
+  .My-services-title {
+    font-size: 48px;
+    margin-top: 59px;
+  }
+}
+
+.services-group {
+  height: 1135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 66px;
+}
+@media (min-width: 1440px) {
+  .services-group {
+    height: 307px;
+    width: 1270px;
+    flex-direction: row;
+    margin-bottom: 106px;
+  }
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 262px;
+  height: 307px;
+}
+
+.computer-photo {
+  width: 138px;
+  height: 128px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
+
+.service-p {
+  font-size: 16px;
+  width: 262px;
+  height: 117px;
+  text-align: center;
+  margin: 0;
+}
+
+/*====================  S E C T I O N - 3  ================================*/
+
+.section-3 {
+  width: 100%;
+  height: 660px;
+  padding-top: 1px;
+  background-color: black;
+}
+@media (min-width: 1440px) {
+  .section-3 {
+    padding-top: 116px;
+  }
+}
+
+.content-s3 {
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  justify-content: space-between;
+  margin-top: 63px;
+}
+@media (min-width: 1440px) {
+  .content-s3 {
+    flex-direction: row;
+    height: 428px;
+    margin: 0 auto;
+    width: 704px;
+  }
+}
+
+.form-title {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  .form-title {
+    font-size: 48px;
+  }
+}
+
+.form {
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 428px;
+}
+
+.inputs-area {
+  width: 335px;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .inputs-area {
+    width: 375px;
+  }
+}
+
+.input-text {
+  width: 329px;
+  height: 39px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+  padding: 0;
+}
+@media (min-width: 1440px) {
+  .input-text {
+    width: 370px;
+  }
+}
+
+.textarea {
+  width: 329px;
+  height: 108px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+  padding: 0;
+}
+@media (min-width: 1440px) {
+  .textarea {
+    width: 370px;
+  }
+}
+
+.label {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  height: 45px;
+  width: 335px;
+  border-radius: 4px;
+  background-color: #ffd953;
+  border: none;
+  padding: 0;
+  transition-duration: 0.4s;
+}
+@media (min-width: 1440px) {
+  .button {
+    width: 375px;
+  }
+}
+
+.button:hover {
+  background-color: white;
+  color: #ffd953;
+  border: 5px solid #ffd953;
+}
+
+/*====================  F O O T E R  ================================*/
+
+.footer {
+  width: 100%;
+  height: 493px;
+  background-color: #c4c4c4;
+}
+@media (min-width: 1440px) {
+  .footer {
+    padding-top: 95px;
+    height: 251px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.box-logo {
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 53px 0 85px 20px;
+}
+@media (min-width: 1440px) {
+  .box-logo {
+    height: 136px;
+    width: 112px;
+    text-align: center;
+    padding: 0;
+    margin-left: 80px;
+  }
+}
+
+.footer-logo {
+  width: 77px;
+  height: 71px;
+}
+@media (min-width: 1440px) {
+  .footer-logo {
+    width: 112px;
+    height: 103px;
+  }
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 13px;
+}
+
+.social-media-name {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+@media (min-width: 1440px) {
+  .social-media-name {
+    margin-left: 0;
+    margin-right: 215px;
+  }
+}
+
+.instagram {
+  width: 107px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-logo {
+  width: 27px;
+  height: 27px;
+}
+
+.linkedin {
+  width: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkedin-logo {
+  width: 28px;
+  height: 28px;
+}
+
+.github {
+  width: 81px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.github-logo {
+  width: 29px;
+  height: 29px;
+}
+
+.social-media-name {
+  font-size: 16px;
+  margin: 0;
+}
