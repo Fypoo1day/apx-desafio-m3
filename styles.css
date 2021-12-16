@@ -30,7 +30,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .bar {
     margin: 0px 103px 76px 80px;
   }
@@ -40,7 +40,7 @@ p {
   width: 54px;
   height: 50px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .bar-logo {
     width: 95px;
     height: 109px;
@@ -52,7 +52,7 @@ p {
   width: 36px;
   height: 6px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .option {
     background-color: white;
     width: unset;
@@ -68,7 +68,7 @@ p {
   align-self: center;
   justify-content: space-between;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .bar-options {
     flex-direction: row;
     width: 428px;
@@ -84,7 +84,7 @@ p {
   font-weight: 700;
   font-size: 0;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .option-link {
     font-size: 24px;
   }
@@ -96,7 +96,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .Bienvenidos {
     flex-direction: row;
     height: 395px;
@@ -115,7 +115,7 @@ p {
   text-align: center;
   letter-spacing: -1px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .Bienvenidos-text {
     text-align: left;
     width: 313px;
@@ -129,7 +129,7 @@ p {
   height: 300px;
   margin: 0 auto;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .Foto-Yo {
     width: 435px;
     height: 395px;
@@ -153,7 +153,7 @@ p {
 
   align-items: center;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .content-s1 {
     flex-direction: row-reverse;
     height: 237px;
@@ -166,7 +166,7 @@ p {
   margin: 0;
   text-align: center;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .presentation > h2 {
     text-align: left;
   }
@@ -179,7 +179,7 @@ p {
   height: 193px;
   margin: 0;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .presentation > p {
     font-size: 24px;
     width: 532px;
@@ -191,7 +191,7 @@ p {
   height: 80px;
   width: 80px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .check-image {
     margin-top: 145px;
     margin-left: 306px;
@@ -207,7 +207,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .presentation {
     height: 237px;
     margin-top: 132px;
@@ -227,7 +227,7 @@ p {
   align-items: center;
   background-color: white;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .section-2 {
     height: 604px;
   }
@@ -238,7 +238,7 @@ p {
   margin-bottom: 0;
   font-size: 32px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .My-services-title {
     font-size: 48px;
     margin-top: 59px;
@@ -253,7 +253,7 @@ p {
   align-items: center;
   margin-bottom: 66px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .services-group {
     height: 307px;
     width: 1270px;
@@ -299,7 +299,7 @@ h3 {
   padding-top: 1px;
   background-color: black;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .section-3 {
     padding-top: 116px;
   }
@@ -312,7 +312,7 @@ h3 {
   justify-content: space-between;
   margin-top: 63px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .content-s3 {
     flex-direction: row;
     height: 428px;
@@ -327,7 +327,7 @@ h3 {
   text-align: center;
   margin: 0;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .form-title {
     font-size: 48px;
   }
@@ -349,7 +349,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .inputs-area {
     width: 375px;
   }
@@ -362,7 +362,7 @@ h3 {
   border-radius: 4px;
   padding: 0;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .input-text {
     width: 370px;
   }
@@ -375,7 +375,7 @@ h3 {
   border-radius: 4px;
   padding: 0;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .textarea {
     width: 370px;
   }
@@ -406,7 +406,7 @@ h3 {
   padding: 0;
   transition-duration: 0.4s;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .button {
     width: 375px;
   }
@@ -425,7 +425,7 @@ h3 {
   height: 493px;
   background-color: #c4c4c4;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .footer {
     padding-top: 95px;
     height: 251px;
@@ -441,7 +441,7 @@ h3 {
   justify-content: space-between;
   padding: 53px 0 85px 20px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .box-logo {
     height: 136px;
     width: 112px;
@@ -455,7 +455,7 @@ h3 {
   width: 77px;
   height: 71px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .footer-logo {
     width: 112px;
     height: 103px;
@@ -474,7 +474,7 @@ h3 {
   justify-content: space-between;
   margin-left: 20px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 796px) {
   .social-media-name {
     margin-left: 0;
     margin-right: 215px;
