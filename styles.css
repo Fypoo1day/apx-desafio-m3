@@ -256,7 +256,7 @@ p {
 @media (min-width: 796px) {
   .services-group {
     height: 307px;
-    width: 1270px;
+    width: 100%;
     flex-direction: row;
     margin-bottom: 106px;
   }
